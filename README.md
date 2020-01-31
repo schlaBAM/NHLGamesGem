@@ -1,8 +1,6 @@
 # NHLGem
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/NHLGem`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Scrapes today's schedule from NHL.com and returns the number of games for the day, and those being currently played (in addition to their scores).
 
 ## Installation
 
@@ -22,7 +20,22 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+This gem currently only has one function:
+
+#### NHLGamesGem#check_games
+Will return one of three strings:
+  - No games scheduled for today
+  - Games scheduled, those currently in progress will have their score returned
+  - Games scheduled, all are finished
+
+Example (currently scheduled):
+```
+There are 3 games today, and there are currently 3 games in progress:
+   
+   Montréal Canadiens are currently leading Buffalo Sabres 3-1.
+   Nashville Predators are currently leading New Jersey Devils 6-5.
+   Los Angeles Kings are currently leading Arizona Coyotes 3-2.
+```
 
 ## Development
 
@@ -32,7 +45,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/NHLGem. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/schlaBAM/NHLGamesGem This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
