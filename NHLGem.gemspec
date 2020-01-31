@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["brett.morrison@shopify.com"]
 
   spec.summary       = "Ruby gem to see if there are any NHL games currently being played (and additionally their scores if so)"
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/schlaBAM/NHLGamesGem"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'

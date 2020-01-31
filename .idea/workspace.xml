@@ -1,22 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ba016ec-5eb9-4300-98d7-00a411a34eac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CODE_OF_CONDUCT.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NHLGem.gemspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/setup" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/NHLGem.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/NHLGem/version.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/NHLGem_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
+    <list default="true" id="8ba016ec-5eb9-4300-98d7-00a411a34eac" name="Default Changelist" comment="updated gitignore">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NHLGem.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/NHLGem.gemspec" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,18 +83,31 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580463649872</updated>
-      <workItem from="1580463652244" duration="513000" />
+      <workItem from="1580463652244" duration="929000" />
     </task>
+    <task id="LOCAL-00001" summary="Updated files to before rubymine exploded">
+      <created>1580464352652</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580464352652</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updated files" />
+    <MESSAGE value="Updated files to before rubymine exploded" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated files to before rubymine exploded" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="541" y="126" key="CommitChangelistDialog2" timestamp="1580464310173">
+    <state x="541" y="126" key="CommitChangelistDialog2" timestamp="1580464641564">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
-    <state x="541" y="126" key="CommitChangelistDialog2/0.23.1920.1177@0.23.1920.1177" timestamp="1580464310173" />
+    <state x="541" y="126" key="CommitChangelistDialog2/0.23.1920.1177@0.23.1920.1177" timestamp="1580464641564" />
     <state x="823" y="513" key="Github.ShareDialog" timestamp="1580464195929">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
@@ -131,6 +132,10 @@
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state width="1878" height="311" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1580464310192" />
+    <state x="560" y="347" key="Vcs.Push.Dialog.v2" timestamp="1580464354527">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="560" y="347" key="Vcs.Push.Dialog.v2/0.23.1920.1177@0.23.1920.1177" timestamp="1580464354527" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/NHLGem@NHLGemTest.rcov" NAME="NHLGemTest Coverage Results" MODIFIED="1580463900564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NHLGem" />
